@@ -1,0 +1,84 @@
+/* Estilo global para la caja que contiene todo */
+.container {
+    width: 90%; /* Ancho de la caja */
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0 auto; /* Centra la caja en la pantalla */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo de la caja */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo de la cabecera */
+.container h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.container h3, .container h2 {
+    color: #555;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Ajustes para los gráficos */
+.dcc-graph {
+    margin-top: 30px;
+    border: 1px solid #ddd; /* Borde suave alrededor del gráfico */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff; /* Fondo blanco para los gráficos */
+}
+
+/* Estilo para las tablas */
+.dash-table-container {
+    margin-top: 30px;
+    background-color: #fff; /* Fondo blanco para las tablas */
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Borde suave */
+    padding: 15px;
+}
+
+/* Estilo de la imagen (nube de palabras) */
+.container img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la imagen */
+}
+
+/* Ajustes para el texto de las tablas */
+.dash-table-container .dash-spreadsheet-inner div {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Mejorar la apariencia de las celdas de la tabla */
+.dash-table-container .dash-spreadsheet-inner div span {
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.dash-table-container .dash-table-header {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Fondo gris suave */
+    margin: 0;
+    padding: 0;
+}
+
+/* Alineación y espaciado de los elementos */
+.container > * {
+    margin-bottom: 30px; /* Espaciado entre los elementos */
+}
